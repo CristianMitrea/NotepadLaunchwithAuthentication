@@ -75,8 +75,7 @@ public class LoginApp {
     public static String citireNume(String label) {
         System.out.print(label);
         Scanner kbdInput = new Scanner(System.in);
-        String readValue = kbdInput.nextLine();
-        return readValue;
+        return kbdInput.nextLine();
     }
 
 }
